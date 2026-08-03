@@ -1,0 +1,30 @@
+name: ✨ Feature request
+description: Suggest an idea for RECON AI
+title: "[Feature]: "
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a feature! Check the
+        [ROADMAP](https://github.com/K1ngBronxo/RECON-AI/blob/main/ROADMAP.md) first —
+        it may already be planned.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What problem are you trying to solve? Context beats solutions.
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed solution
+      description: What would the ideal feature look like?
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Any workarounds or alternative approaches you've thought of.

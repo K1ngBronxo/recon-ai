@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Discussions
+    url: https://github.com/K1ngBronxo/RECON-AI/discussions
+    about: Ask questions, share ideas, or get help from the community
+  - name: 🔒 Security vulnerability
+    url: https://github.com/K1ngBronxo/RECON-AI/security/advisories/new
+    about: Please report security vulnerabilities here, not as public issues

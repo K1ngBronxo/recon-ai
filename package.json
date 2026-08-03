@@ -1,0 +1,33 @@
+{
+  "name": "recon-ai",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "RECON AI — AI-powered software reverse engineering assistant",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "dompurify": "^3.0.0",
+    "fflate": "^0.8.2",
+    "firebase": "^12.17.0",
+    "lucide-react": "*",
+    "marked": "*",
+    "mermaid": "*",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^7.18.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.0",
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.0",
+    "tailwindcss": "^3.4.0",
+    "typescript": "^5.6.0",
+    "vite": "^6.0.0"
+  }
+}

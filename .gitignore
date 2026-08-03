@@ -1,0 +1,26 @@
+# Dependencies
+node_modules
+
+# Build output
+dist
+
+# Firebase
+firebase-debug.log
+firestore-debug.log
+ui-debug.log
+
+# Environment & secrets
+.env
+.env.local
+.env.production
+*.local
+
+# Logs
+*.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea
+.vscode/*
+!.vscode/extensions.json
